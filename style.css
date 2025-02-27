@@ -1,48 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;700&display=swap');
-
 body {
-    font-family: 'Vazirmatn', sans-serif;
-    background-color: #111;
+    background-color: #000;
     color: #fff;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
-    background: #222;
+    background-color: #111;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(147, 51, 234, 0.5); /* بنفش ملایم */
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
 }
 
 h1 {
-    font-weight: 700;
-    color: #b86efb;
-}
-
-p {
-    font-size: 18px;
-    font-weight: 300;
+    color: #a855f7;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .video-list a {
-    display: block;
-    text-decoration: none;
-    background: #b86efb;
+    display: inline-block;
+    background-color: #a855f7;
     color: white;
-    padding: 12px 20px;
+    text-decoration: none;
+    padding: 10px 20px;
     border-radius: 8px;
-    margin-top: 15px;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
 }
 
 .video-list a:hover {
-    background: #9236db;
+    background-color: #9333ea;
     transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(147, 51, 234, 0.7);
 }
+
 
